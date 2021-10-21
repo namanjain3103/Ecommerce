@@ -10,6 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="script1.js"></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                         <li> <a href="">Account</a> </li>
                     </ul>
                 </nav>
-                <a href="cart.html"> <img src="img/cart.png" width="25px" height="25px"></a>
+                <a href="cart.html" onclick="update()"> <img src="img/cart.png" width="25px" height="25px" ></a>
             </div>
             <div class="row1">
                 <div class="column1 left1">
@@ -87,11 +88,11 @@
                 <p>$50.00</p>
                 <button type="button" class="btnCart">Add To Cart</button>
             </div>
-            <div class="column3">
-                <img src="img/shirt.jpg" >
+            <div class="column3" id="s3">
+                <img src="img/shirt.jpg">
                 <h4>Blue Printed Shirt</h4>
                 <p>$50.00</p>
-                <button type="button" class="btnCart">Add To Cart</button>
+                <button type="button" class="btnCart" onclick="addToCart(s3)">Add To Cart</button>
             </div>
         </div>
     </div>
