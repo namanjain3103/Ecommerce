@@ -9,7 +9,7 @@ body{
 }
 .header{
    /** background: radial-gradient(white,#DA2C43);**/
-   background-image: linear-gradient(to bottom,
+   background-image: linear-gradient(to top,
    #d16ba5, #c777b9, #ba83ca, #aa8fd8,
    #9a9ae1, #8aa7ec, #79b3f4, #69bff8,
    #52cffe, #41dfff, #46eefa, #5ffbf1);
@@ -45,13 +45,15 @@ nav ul li a:hover{
     color: black;   
 }
 .accountIcon{
-    width: 25px;
-    margin-left: 25px;
-   
+    width: 28px;
+    margin-left: 20px;
+}
+.accountIcon:hover{
+    transform: scale(1.5);
 }
 .menuIcon{
     width: 20px;
-    margin-left: 20px;
+    margin-left:20px;
     display: none;
 }
 @media only screen and (max-width:800px){
