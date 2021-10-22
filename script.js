@@ -10,3 +10,7 @@ else {
         menuItems.style.maxHeight = "0px"
     }
 }
+
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+}
