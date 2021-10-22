@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -29,7 +29,7 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
-    
+
 }
 nav ul li{
     display: inline-block;
@@ -42,7 +42,7 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: black;   
+    color: black;
 }
 .accountIcon{
     width: 28px;
@@ -81,7 +81,7 @@ nav ul li a:hover{
     transform: scale(150%);
 }
 .container{
-    
+
     max-width: 1300px;
     margin:auto;
     padding-left: 25px;
@@ -97,12 +97,12 @@ nav ul li a:hover{
     margin-top: 100px;
 }
 .column1 img{
-    
+
     max-width: 100%;
     padding: 50px 0;
 }
 .column1{
-    
+
     flex-basis: 45%;
     min-width: 300px;
     margin-bottom: 5%;
@@ -166,7 +166,7 @@ nav ul li a:hover{
     position: relative;
     line-height:70px;
     font-size: 50px;
-    
+
 }
 .titleFtr::after{
     content:'';
@@ -202,7 +202,7 @@ nav ul li a:hover{
     width: 310px;
     height: 310px;
     border-radius: 6%;
-    
+
 }
 @media only screen and (max-width:800px){
     .column2 img{
@@ -264,7 +264,7 @@ nav ul li a:hover{
     border-radius: 6%;
 }
 .btnCart:hover{
-    
+
     transform: translateX(10px) scale(120%);
 }
 
@@ -285,12 +285,12 @@ nav ul li a:hover{
 }
 .cartPage td{
      padding: 10px 5px;
-    
+
 }
 .cartPage td input{
     padding: 10px;
     width: 60px;
-    height: 30px; 
+    height: 30px;
 }
 .cartInfo{
     display: flex;
@@ -381,14 +381,14 @@ footer{
 }
 .footerContent .row1{
     text-align: center;
-   
+
 }
 .footerContent .column1{
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight:300;
     font-size: smaller;
- 
+
 }
 .footerContent .column1 p{
     font-weight: 500;
@@ -403,7 +403,7 @@ footer{
 }
 /*-------------Men Page--------------------*/
 .menColumn1 img{
-    
+
     max-width: 100%;
     padding: 60px 0;
     width: 400px;
@@ -453,10 +453,10 @@ footer{
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    
+
 }
 .cardHead{
-    padding: 15px 20px;  
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
      align-items: center;
@@ -488,7 +488,7 @@ footer{
 .cardImg img{
     max-width: 100%;
     border-radius: 6%;
-    height: 250;
+    height: 250px;
 }
 .cardBody{
     padding: 15px 20px;
