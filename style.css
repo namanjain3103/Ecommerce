@@ -9,10 +9,10 @@ body{
 }
 .header{
    /** background: radial-gradient(white,#DA2C43);**/
-   background-image: linear-gradient(to right top,
-    #d16ba5, #c777b9, #ba83ca, #aa8fd8,
-    #9a9ae1, #8aa7ec, #79b3f4, #69bff8,
-    #52cffe, #41dfff, #46eefa, #5ffbf1);
+   background-image: linear-gradient(to bottom,
+   #d16ba5, #c777b9, #ba83ca, #aa8fd8,
+   #9a9ae1, #8aa7ec, #79b3f4, #69bff8,
+   #52cffe, #41dfff, #46eefa, #5ffbf1);
       box-shadow: 2px 3px 5px grey;
 }
 .navBar{
@@ -44,6 +44,11 @@ nav ul li a{
 nav ul li a:hover{
     color: black;   
 }
+.accountIcon{
+    width: 25px;
+    margin-left: 25px;
+   
+}
 .menuIcon{
     width: 20px;
     margin-left: 20px;
@@ -74,6 +79,7 @@ nav ul li a:hover{
     transform: scale(150%);
 }
 .container{
+    
     max-width: 1300px;
     margin:auto;
     padding-left: 25px;
@@ -86,7 +92,7 @@ nav ul li a:hover{
     justify-content: space-around;
 }
 .header .row1{
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .column1 img{
     
@@ -94,9 +100,9 @@ nav ul li a:hover{
     padding: 50px 0;
 }
 .column1{
+    
     flex-basis: 45%;
     min-width: 300px;
-    margin-top: 3%;
     margin-bottom: 5%;
 }
 @media only screen and (max-width:800px){
@@ -175,15 +181,18 @@ nav ul li a:hover{
     min-width: 250px;
     margin-bottom:30px;
     transition: transform 0.5s;
-    box-shadow: 2px 3px 5px grey;
+    box-shadow: 0px 0px 10px 3px grey;
+    background:#161616;
 }
 .column2:hover{
     transform: translateY(-8px);
     transform: scale(120%);
 }
 .column2 img{
-    width: 100%;
-    width: 300px;
+    max-width: 100%;
+    width: 310px;
+    height: 310px;
+    
 }
 @media only screen and (max-width:800px){
     .column2 img{
@@ -198,24 +207,34 @@ nav ul li a:hover{
     transition: transform 0.5s;
 }
 .column3:hover{
-    transform: translateY(-8px);
+    transform: translateY(-12px);
 }
 .column3 img{
     width: 100%;
 }
 .column4{
-    flex-basis: 25%;
+    background-image: linear-gradient(to bottom,
+     #d16ba5, #c777b9, #ba83ca, #aa8fd8,
+     #9a9ae1, #8aa7ec, #79b3f4, #69bff8,
+     #52cffe, #41dfff, #46eefa, #5ffbf1);
+      box-shadow: 2px 3px 5px grey;
+    flex-basis: 24%;
     padding: 10px;
-    min-width:200px;
+    margin: 5px;
+    min-width: 200px;
     margin-bottom: 50px;
     transition: transform 0.5s;
-    box-shadow: 2px 3px 5px grey;
+    box-shadow: 0px 0px 5px grey;
+    width: 2000px;
+    height: 350px;
 }
 .column4:hover{
     transform: translateY(-8px);
 }
 .column4 img{
     width: 100%;
+    height: 250px;
+
 }
 
 .btnCart{
@@ -312,6 +331,7 @@ td:last-child{
 }
 .column1 .offerImg{
     padding: 50px;
+    max-height: 350px;
 }
 .offer .small{
     color: #555;
@@ -367,6 +387,7 @@ footer{
     
     max-width: 100%;
     padding: 60px 0;
+    width: 400px;
 }
 .menColumn1{
     flex-basis: 45%;
